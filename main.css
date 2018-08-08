@@ -1,0 +1,221 @@
+/* xl      NORMAL MAKİNA BOYUTU */ 
+
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #33333a;
+    /* border-radius: 16px; */
+    /* margin-bottom: 16px; */
+    text-align: center; 
+    color: #ffffff;
+    font-size: 12px;   
+    font-family: Roboto;
+    line-height: 40px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color:white;        /* BURASI DAHA SONRA BEYAZ OLACAK */
+    /* border-radius: 16px; */
+    /* margin-bottom: 16px; */
+    text-align: center; 
+    color: #ffffff;
+    font-size: 12px;   
+    font-family: Roboto;
+    line-height: 80px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    color: #33333a;
+    font-size: 12px Arial;
+    display: block;
+    padding: 4px 30px;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+
+.login {
+    float: right;
+}
+
+.login ul li {
+    float: left;
+}
+
+.login ul li a {
+    color: #33333a;
+    font-size: 12px Arial;
+    display: block;
+    padding: 4px 30px;
+}
+
+.login ul li a:hover {
+    color: red;
+}
+
+#container {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #container>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  #container>.btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    top: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+  
+  #container>#btn2 {
+    position: relative;
+    float: right;
+  }
+
+  .featured {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: center; 
+    color: #33333a;
+    font-size: 42px;   
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    margin-top: 20px;
+    
+  }
+
+.mask {
+    width: 263px;
+    height: 465px;
+    /* background-color: lightgreen; */
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.aciklama {
+    color: #33333a;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#alt {
+    font-size: 14px;
+}
+
+.big {
+    color: #030303;
+    font-size: 18px;
+}
+
+#small {
+    font-size: 12px;
+}
+
+.aboutMat {
+    width: 100%;
+    height: 145px;
+    background-color: white;
+    border-radius: 16px;
+    /* margin-bottom: 16px; */
+    text-align: center; 
+    color: #33333a;
+    font-size: 42px;   
+    font-family: 'Roboto', sans-serif;
+    line-height: 145px;
+}
+
+.aboutMatter {
+    width: 555px;
+    height: 430px;
+    /* background-color: brown; */
+    border-radius: 16px;
+    margin-bottom: 16px;
+    margin-left: 35px;
+    /* text-align: center;  */
+    color: #030303;
+    font-size: 18px;   
+    font-family: 'Roboto', sans-serif;
+    /* line-height: 40px; */
+}
+
+.containerExplore {
+    width: 100%;
+    height: 840px;
+    background-color: #fcfcfc;
+}
+
+.Explore {
+    width: 100%;
+    height: 40px;
+    background-color: rosybrown;
+    color: #33333a;
+    text-align: center;
+    line-height: 40px;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.Sol {
+    width: 555px;
+    height: 560px;
+    background: red;
+}
+
+.Orta {
+    width: 263px;
+    height: 280px;
+    background: darkolivegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    /* lg           TABLET YATAY */
+    .box {
+        background: green;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* md       TABLET DİKEY */
+    .box {
+        background: blueviolet;
+    }
+  }
+  
+  @media (max-width: 667px) {
+    /* sm       MOBİL YATAY VE DİKEY */
+    .box {
+        background: red;
+    }
+  }
