@@ -1,3 +1,3 @@
-# eCommerce
+# eCommerce :dress:
 ![home page](home.png)
-![sale page](sale.png)
+![sale page](salepage.png)
